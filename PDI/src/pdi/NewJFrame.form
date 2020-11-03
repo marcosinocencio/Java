@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JFileChooser" name="jFileChooser1">
+      <Properties>
+        <Property name="acceptAllFileFilterUsed" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="FileNameExtensionFilter filterpgm = new FileNameExtensionFilter(&quot;Imagem em tons de cinza (PGM)&quot;, &quot;pgm&quot;);&#xa;jFileChooser1.addChoosableFileFilter(filterpgm);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JFileChooser" name="jFileChooser2">
+      <Properties>
+        <Property name="acceptAllFileFilterUsed" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="FileNameExtensionFilter filterppm = new FileNameExtensionFilter(&quot;Imagem colorida (PPM)&quot;, &quot;ppm&quot;);&#xa;jFileChooser2.addChoosableFileFilter(filterppm);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JFileChooser" name="SalvaPGM">
+      <Properties>
+        <Property name="acceptAllFileFilterUsed" type="boolean" value="false"/>
+        <Property name="dialogType" type="int" value="1"/>
+        <Property name="approveButtonText" type="java.lang.String" value="Salvar"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="FileNameExtensionFilter fpgm = new FileNameExtensionFilter(&quot;Imagem em tons de cinza (PGM)&quot;, &quot;pgm&quot;);&#xa;SalvaPGM.addChoosableFileFilter(fpgm);"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JFileChooser" name="SalvaPPM">
+      <Properties>
+        <Property name="acceptAllFileFilterUsed" type="boolean" value="false"/>
+        <Property name="dialogType" type="int" value="1"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="SalvaPPM.setApproveButtonText(&quot;Salvar&quot;);&#xa;FileNameExtensionFilter fppm = new FileNameExtensionFilter(&quot;Imagem colorida (PPM)&quot;, &quot;ppm&quot;);&#xa;SalvaPPM.addChoosableFileFilter(fppm);"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Processamento Digital de Imagens"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Cursor Padr&#xe3;o"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jComboBox1" min="-2" pref="223" max="-2" attributes="0"/>
+                      <EmptySpace pref="193" max="32767" attributes="0"/>
+                      <Component id="jComboBox2" min="-2" pref="257" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="248" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="239" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="12" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Monospaced" size="20" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor Padr&#xe3;o"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o do processamento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Abrir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Processar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Processamentos PGM:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="13" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Processamentos PPM:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="8">
+            <StringItem index="0" value="(Escolha um processamento)"/>
+            <StringItem index="1" value="Alongamento de Contraste "/>
+            <StringItem index="2" value="Binariza&#xe7;&#xe3;o"/>
+            <StringItem index="3" value="CMYK"/>
+            <StringItem index="4" value="Destaca em 2 cores"/>
+            <StringItem index="5" value="Gamma"/>
+            <StringItem index="6" value="Gera Colorida "/>
+            <StringItem index="7" value="HSI"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jComboBox1.addItemListener(&#xa;       new ItemListener(){&#xa;        public void itemStateChanged(ItemEvent event){&#xa;            if(event.getStateChange() == ItemEvent.SELECTED)       &#xa;            op1 = jComboBox1.getSelectedIndex();&#xa;                 &#xa;            switch (op1){&#xa;                 case 0: jTextArea1.setText(&quot;Alongamento de contraste\n\n&quot;); &#xa;                         jTextArea1.append(&quot;    Pode ser chamado tamb&#xe9;m de normaliza&#xe7;&#xe3;o ou alongamento de\nhistograma.&quot;);&#xa;                         jTextArea1.append(&quot;\n    Toda imagem tem um histograma que &#xe9; um gr&#xe1;fico onde o eixo x\ns&#xe3;o os tons de cinza, 0 a 255, da imagem e o eixo y &#xe9; a quantidade\nde pixels de cada tom de cinza da imagem.&quot;);&#xa;                         jTextArea1.append(&quot; H&#xe1; imagens em que a\nquantidade de pixels de tons de cinza est&#xe3;o concentrados em alguma\nparte do histograma, fazendo com que a imagem fique muito escura\nou muito clara.&quot;);&#xa;                         jTextArea1.append(&quot;\n    O alongamento de contraste distribui a quantidade de pixels\nde tons de cinza por todo o histograma, em imagens em que eles \nest&#xe3;o concentrados, fazendo com que a imagem fique com um contraste\nequilibrado, nem muito escuro nem muito claro.&quot;);&#xa;                         jTextArea1.append(&quot; Imagens com contraste\nequilibrado, quantidade de pixels de tons de cinza distribuidos\npor todo o histograma, ap&#xf3;s o processamento n&#xe3;o h&#xe1; altera&#xe7;&#xe3;o.&quot;);&#xa;                         jTextArea1.setCaretPosition(0);&#xa;                         op1=30;&#xa;                         break;&#xa;                 case 1: jTextArea1.setText(&quot;Binariza&#xe7;&#xe3;o\n\n&quot;);&#xa;                         jTextArea1.append(&quot;    Ap&#xf3;s abrir uma imagem PGM(imagem em tons de cinza), o usu&#xe1;rio\nescolhe um valor entre 0 a 255 (tons de cinza da imagem).&quot;);&#xa;                         jTextArea1.append(&quot; Valores\nde tons de cinza ,da imagem, acima do escolhido ficam brancos e\nvalores abaixo do escolhido ficam pretos.&quot;);&#xa;                         jTextArea1.append(&quot; Ou Seja, a imagem fica\ncom duas cores preto e branco, binarizada.&quot;);&#xa;                         op1=31;&#xa;                         break;&#xa;                 case 2: jTextArea1.setText(&quot;CMYK\n\n&quot;);&#xa;                         jTextArea1.append(&quot;    CMYK &#xe9; a abreviatura do sistema de cores formado por Ciano\n(Cyan), Magenta (Magenta), Amarelo (Yellow) e Preto (Black (Key)).\n&quot;);&#xa;                         jTextArea1.append(&quot;    O CMYK funciona devido &#xe0; absor&#xe7;&#xe3;o de luz, pelo fato de que as\ncores que s&#xe3;o vistas v&#xea;m da parte da luz que n&#xe3;o &#xe9; absorvida. Este\nsistema &#xe9; empregado por imprensas, impressoras e fotocopiadoras\npara reproduzir a maioria das cores do espectro vis&#xed;vel, e &#xe9; conhecido\ncomo quadricromia. &#xc9; o sistema subtrativo de cores, em contraposi&#xe7;&#xe3;o\nao sistema aditivo, o RGB.\n&quot;);&#xa;                         jTextArea1.append(&quot;    Ciano &#xe9; a cor oposta ao vermelho, o que significa que atua\ncomo um filtro que absorve a dita cor (-R +G +B). Da mesma forma,\nmagenta &#xe9; a oposta ao verde (+R -G +B) e amarelo &#xe9; a oposta ao\nazul (+R +G -B). Assim, magenta mais amarelo produzir&#xe1; vermelho,\nmagenta mais ciano produzir&#xe1; azul e ciano mais amarelo produzir&#xe1;\nverde.\n&quot;);&#xa;                         jTextArea1.append(&quot;    Ap&#xf3;s utilizar o processamento RGB para PGM, que a partir de\numa imagem colorida extrai seus canais R(Vermelho), G(Verde) e\nB(Azul) para imagens em tons de cinza, o usu&#xe1;rio abre os 3 canais(RGB)\nconvertidos em tons de cinza e processa esses canais.&quot;);&#xa;                         jTextArea1.append(&quot; O processamento\nconsiste em fazer C = 255 - R, M = 255 - G e Y = 255 - B (255 menos\no valor do pixel da imagem no R,G ou B) para formar o C, M e Y.&quot;);&#xa;                         jTextArea1.setCaretPosition(0);&#xa;                         op1=35;&#xa;                         break;&#xa;                 case 3: jTextArea1.setText(&quot;Destaca em 2 cores\n\n&quot;);&#xa;                         jTextArea1.append(&quot;    A partir de uma imagem em tons de cinza &#xe9; poss&#xed;vel para o usu&#xe1;rio\ndestacar alguma regi&#xe3;o dela de seu interesse. Observando o histograma\nda imagem(ver defin&#xe7;&#xe3;o de histograma no alongamento de contraste)\no usu&#xe1;rio observa os tons de cinza que quer destacar. Exemplo: se\nele quer destacar os tons de cinza acima de 123 ent&#xe3;o o processamento\ncoloca todos os tons de cinza acima de 123 em amarelo e abaixo\nem azul e salva em uma nova imagem colorida. Assim a imagem fica\ncom a regi&#xe3;o escolhida destacada em amarelo e o restante em azul.&quot;);&#xa;                         jTextArea1.setCaretPosition(0);&#xa;                         op1=32;&#xa;                         break;&#xa;                 case 4: jTextArea1.setText(&quot;Gamma\n\n&quot;);&#xa;                         jTextArea1.append(&quot;    A corre&#xe7;&#xe3;o gamma, gamma n&#xe3;o-linearidade, compress&#xe3;o de gamma,\nou muitas vezes simplesmente gamma, &#xe9; o nome de uma opera&#xe7;&#xe3;o n&#xe3;o-linear\nusada para decodificar e codificar lumin&#xe2;ncia ou valores tristimulares\nem sistemas de v&#xed;deo ou imagem fixa. Corre&#xe7;&#xe3;o de Gamma &#xe9;, nos casos\nmais simples, definida pela seguinte express&#xe3;o: Vout = AVin^y onde A\n&#xe9; uma constante e a valores de entrada e de sa&#xed;da s&#xe3;o valores reais\nn&#xe3;o-negativos; no caso comum de A = 1, as entradas e sa&#xed;das est&#xe3;o\ntipicamente na faixa de 0-1.&quot;);&#xa;                         jTextArea1.append(&quot;\n    O processamento pega o valor de cada pixel e aplica a equa&#xe7;&#xe3;o\nde correc&#xe3;o gamma. Para valores de y, gamma, maiores que 1 a imagem\nfica mais escura, e para valores menores que 1 a imagem fica mais\nclara. Isso acontece porque a fun&#xe7;&#xe3;o de corre&#xe7;&#xe3;o gamma &#xe9; uma fun&#xe7;&#xe3;o\nexponecial ent&#xe3;o, para gamma &gt; 1 os valores de tons de cinza altos\nficam com valores menores, imagem escura; e para gamma &lt; 1 valores\nde tons de cinza baixos ficam com valores maiores, imagem clara.&quot;);&#xa;                         jTextArea1.setCaretPosition(0);&#xa;                         op1=33;&#xa;                         break;&#xa;                 case 5: jTextArea1.setText(&quot;Gera colorida\n\n&quot;);&#xa;                         jTextArea1.append(&quot;    Faz o processamento inverso do RGB para PGM. Ap&#xf3;s o usu&#xe1;rio\nutilizar o processamento RGB para PGM, que extrai os canais R(Vermelho),\nG(Verde) e B(Azul) de uma imagem colorida para 3 imagens separadas\nem tons de cinza, &#xe9; poss&#xed;vel voltar a imagem para colorido a partir\ndos 3 canais(RGB).\n&quot;);&#xa;                         jTextArea1.append(&quot;    Em uma imagem colorida cada pixel &#xe9; formado por 3 valores,\ncanais (R, G e B). O processamento junta os 3 canais (RGB), em\ntons de cinza, para imagem ficar colorida. Isso &#xe9; feito da seguinte\nmaneira: o processamento pega o valor de cada pixel de cada canal\n(R, G e B) e junta para ficar um pixel com 3 valores, assim forma\numa imagem colorida.&quot;);&#xa;                         jTextArea1.setCaretPosition(0);&#xa;                         op1=34;&#xa;                         break;&#xa;                 &#xa;                 case 6: jTextArea1.setText(&quot;HSI\n\n&quot;);&#xa;                         jTextArea1.append(&quot;    O modelo de cor HSI codifica as cores de acordo com sua matiz,\nsatura&#xe7;&#xe3;o e intensidade. O modelo HSI &#xe9; usado por alguns programas\ngr&#xe1;ficos e monitores de cor como uma alternativa para, ou ao lado\nda representa&#xe7;&#xe3;o RGB. No sistema HSI, a tonalidade de uma cor &#xe9; a\nsua medida do &#xe2;ngulo em uma roda de cores. Tons vermelhos puros s&#xe3;o\n0&#xb0;, tons de verde puros s&#xe3;o de 120&#xb0;, e os azuis puros s&#xe3;o de 240&#xb0;.\n(As cores neutras - branco, cinza e preto - s&#xe3;o definidos para 0&#xb0;\npor conveni&#xea;ncia.) A intensidade &#xe9; a leveza geral ou o brilho da\ncor, definida numericamente como a m&#xe9;dia dos valores RGB equivalentes.\nA defini&#xe7;&#xe3;o HSI de satura&#xe7;&#xe3;o &#xe9; uma medida de uma pureza de cor /\nacinzentado. Cores mais puras t&#xea;m um valor de satura&#xe7;&#xe3;o mais pr&#xf3;ximo\nde 1, enquanto que as cores mais cinzentas t&#xea;m um valor de satura&#xe7;&#xe3;o\nmais pr&#xf3;ximo a 0.&quot;);&#xa;                         jTextArea1.append(&quot;\n    O que o processamento faz &#xe9; converter 3 imagens em tons de cinza\n(R, G e B) para o sistema HSI aplicando a cada pixel uma equa&#xe7;&#xe3;o para\nH, outra para S e outra para I.&quot;);&#xa;                         jTextArea1.setCaretPosition(0);&#xa;                         op1=36;&#xa;                         break;&#xa;                 }&#xa;               jComboBox1.removeItem(&quot;(Escolha um processamento)&quot;);&#xa;            }          &#xa;       }&#xa;);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="(Escolha um processamento)"/>
+            <StringItem index="1" value="Mais azul"/>
+            <StringItem index="2" value="Menos vermelho"/>
+            <StringItem index="3" value="RGB para PGM"/>
+            <StringItem index="4" value="Um canal"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="jComboBox2.addItemListener(&#xa;       new ItemListener(){&#xa;        public void itemStateChanged(ItemEvent event){&#xa;            if(event.getStateChange() == ItemEvent.SELECTED)&#xa;            op1 = jComboBox2.getSelectedIndex();&#xa;            switch (op1){&#xa;            case 0: jTextArea1.setText(&quot;Mais azul\n\n&quot;);&#xa;                    jTextArea1.append(&quot;    Aumenta a intensidade do canal B(Azul) na imagem, resulta\nem uma imagem mais \&quot;azulada\&quot;. O usu&#xe1;rio digita um valor entre\n0 a 255 e esse valor &#xe9; somado &#xe0; todos os pixels da imagem no\ncanal B, os canais R e G permanecem inalterados. Com isso h&#xe1; um\naumento na intensidade de azul na imagem.&quot;);&#xa;                    op1=40;&#xa;                    break;&#xa;            case 1: jTextArea1.setText(&quot;Menos vermelho\n\n&quot;);&#xa;                    jTextArea1.append(&quot;    Diminui a intensidade do canal R(Vermelho) na imagem, resulta\nem uma imagem menos \&quot;avermelhada\&quot;. O usu&#xe1;rio digita um valor entre\n0 a 255 e esse valor &#xe9; subtraido de todos os pixels da imagem no\ncanal R, os canais G e B permanecem inalterados. Com isso h&#xe1; uma\nredu&#xe7;&#xe3;o de intensidade de vermelho na imagem.&quot;);&#xa;                    op1=37;&#xa;                    break;&#xa;            case 2: jTextArea1.setText(&quot;RGB para PGM\n\n&quot;);&#xa;                    jTextArea1.append(&quot;    A partir de uma imagem colorida extrai seus 3 canais R(Vermelho),\nG(Verde) e B(Azul) para imagens em tons de cinza. Em uma imagem\ncolorida cada pixel &#xe9; formado por 3 valores (R, G e B). O processamento\npega cada pixel da imagem e extrai um dos seus 3 valores R, G ou B\ne vai salvando em uma imagem separada. Isso &#xe9; feito com os 3 canais\ne logo ap&#xf3;s terminar, os 3 canais estar&#xe3;o salvos em 3 imagens\ndiferentes de tons de cinza.&quot;);&#xa;                    jTextArea1.setCaretPosition(0);&#xa;                    op1=38;&#xa;                    break;            &#xa;            case 3: jTextArea1.setText(&quot;Um canal\n\n&quot;);&#xa;                    jTextArea1.append(&quot;    Esse processamento consiste em a partir de uma imagem colorida\nextrair seus canais R(Vermelho), G(Verde) e B(Azul) e salv&#xe1;-los\nseparadamente.\n&quot;);&#xa;                    jTextArea1.append(&quot;    Em uma imagem colorida cada pixel &#xe9; formado por 3 valores(R, G e B).\nO processamento para extrair os canais ele pega os valores do pixel\ne um deles &#xe9; mantido(R, G ou B) e os outros dois s&#xe3;o zerados, isso\n&#xe9; feito com os 3 canais. O processamento faz esse procedimento\ncom todos os pixels extraindo assim os canais R, G e B de uma\nimagem colorida.&quot;);&#xa;                    jTextArea1.setCaretPosition(0);&#xa;                    op1=39;&#xa;                    break;&#xa;            }&#xa;            jComboBox2.removeItem(&quot;(Escolha um processamento)&quot;);&#xa;            }&#xa;       }&#xa;);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Imagens em tons de cinza"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Imagens coloridas"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
